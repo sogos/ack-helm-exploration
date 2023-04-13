@@ -3,7 +3,3 @@ s3Buckets:
       tags:
         - key: "CostCenter"
           value: "marketing"
-    - name: devops-in-net-argocd-youtube-2
-      tags:
-        - key: "CostCenter"
-          value: "marketing"
