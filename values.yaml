@@ -4,5 +4,14 @@
 
 s3Buckets:
     - name: devops-in-net-argocd-test-1
+      tags:
+        - key: "CostCenter"
+          value: "billing"
     - name: devops-in-net-argocd-test-2
+      tags:
+        - key: "CostCenter"
+          value: "sales"
     - name: devops-in-net-argocd-test-3
+      tags:
+        - key: "CostCenter"
+          value: "support"
