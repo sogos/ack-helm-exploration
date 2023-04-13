@@ -9,9 +9,11 @@ spec:
     name: {{ $bucket.name }}
     {{- if $bucket.tags }}
     tagging:
-    {{- range $tag := $bucket.tags }}
-     - {{ $tag.key }}: {{ $tag.value }}
-    {{- end }}
+        tagSet:
+        {{- range $tag := $bucket.tags }}
+          - key: {{ $tag.key }}
+            value: {{ $tag.value }}
+        {{- end }}
     {{ end }}
 {{ end -}}
 {{ end }}
