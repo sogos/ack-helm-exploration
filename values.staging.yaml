@@ -1,8 +1,4 @@
 s3Buckets:
-    - name: devops-in-net-argocd-staging-1
-      tags:
-        - key: "CostCenter"
-          value: "billing"
     - name: devops-in-net-argocd-staging-2
       tags:
         - key: "CostCenter"
