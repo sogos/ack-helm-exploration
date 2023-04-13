@@ -1,5 +1,5 @@
 s3Buckets:
-    - name: devops-in-net-argocd-production-1
-      tags:
-        - key: "CostCenter"
-          value: "sales"
+#    - name: devops-in-net-argocd-production-1
+#      tags:
+#        - key: "CostCenter"
+#          value: "sales"
