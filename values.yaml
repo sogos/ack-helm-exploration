@@ -15,3 +15,7 @@ s3Buckets:
       tags:
         - key: "CostCenter"
           value: "support"
+    - name: devops-in-net-argocd-test-video-youtube
+      tags:
+        - key: "CostCenter"
+          value: "marketing"
