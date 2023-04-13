@@ -1,0 +1,11 @@
+{{ range $bucket := .Values.s3Buckets }}
+{{- with $ -}}
+---
+apiVersion: s3.services.k8s.aws/v1alpha1
+kind: Bucket
+metadata:
+    name: {{ $bucket.name }}
+spec:
+    name: {{ $bucket.name }}
+{{ end -}}
+{{ end }}

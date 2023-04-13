@@ -1,0 +1,8 @@
+# Default values for ack.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+s3Buckets:
+    - name: devops-in-net-argocd-test-1
+    - name: devops-in-net-argocd-test-2
+    - name: devops-in-net-argocd-test-3
